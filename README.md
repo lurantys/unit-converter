@@ -20,4 +20,4 @@ Git, GitHub, pytest, and GitHub Actions.
 
 ## Project Status
 
-Project status: Development in progress.
+Project status: Temperature conversion completed.
