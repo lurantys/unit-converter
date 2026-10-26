@@ -32,3 +32,12 @@ def test_negative_weight():
 def test_invalid_unit():
     with pytest.raises(ValueError):
         convert_weight(5, "kg", "meters")
+
+def test_non_numeric_weight():
+    with pytest.raises(TypeError):
+        convert_weight("hello", "kg", "g")
+
+
+def test_boolean_weight():
+    with pytest.raises(TypeError):
+        convert_weight(True, "kg", "g")
