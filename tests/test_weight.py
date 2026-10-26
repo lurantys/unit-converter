@@ -4,7 +4,7 @@ from converter.weight import convert_weight
 
 
 def test_kg_to_grams():
-    assert convert_weight(2, "kg", "g") == 3000
+    assert convert_weight(2, "kg", "g") == 2000
 
 
 def test_grams_to_kg():
