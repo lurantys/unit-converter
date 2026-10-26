@@ -20,4 +20,4 @@ Git, GitHub, pytest, and GitHub Actions.
 
 ## Project Status
 
-Project status: Temperature and length conversions completed, website in progress.
+Project status: Version 1.1 complete. Temperature, length, and weight conversions are implemented and tested. The GitHub Pages website is live. https://lurantys.github.io/unit-converter/
